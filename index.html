@@ -71,10 +71,6 @@
 
 
 
-
-
-
-
         <div class="inspiration">
             <div class="title2">My Inspiration</div>
             <div class="description2">Web development inspires by enabling global connectivity and interactive user experiences, driving innovation through accessible technology solutions.
@@ -150,10 +146,13 @@
     </footer>
 
     <script>
-            document.getElementById("footerButton").addEventListener("click", function() {
-            document.getElementById("footer").scrollIntoView();
+        document.addEventListener("click", function(event) {
+            if (event.target.id === "footerButton") {
+                document.getElementById("footer").scrollIntoView({ behavior: 'smooth' });
+            }
         });
     </script>
+    
         
     
 </body>
