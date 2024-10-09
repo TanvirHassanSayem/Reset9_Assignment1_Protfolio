@@ -75,7 +75,8 @@
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
-    margin: 24px 0px;
+    margin: 18px 0px;
+
 
 }
 
@@ -190,24 +191,31 @@ frame{
     height: 219px;
     border-radius: 16px;
     padding: 40px;
-    gap: 24px;
+    gap: 30px;
     overflow: hidden;
 }
 
 .card1{
     border-radius: 16x;
     margin-left: 0;
-    background: linear-gradient(90.00deg, rgb(236, 113, 113),rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(90.00deg, rgb(236, 113, 113),rgba(255, 255, 255, 0) 100%); */
+    background-color: rgba(255, 76, 30, 0.05);
 }
 .card2{
     margin-left: 20px;
     margin-right: 20px;
-    background: linear-gradient(90.00deg, hsl(240, 51%, 49%),rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(90.00deg, hsl(240, 51%, 49%),rgba(255, 255, 255, 0) 100%); */
+    background-color: rgba(0, 76, 232, 0.05);
 }
 .card3{
     margin-right: 0;
-    background: linear-gradient(90.00deg, rgb(221, 213, 4),rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(90.00deg, rgb(221, 213, 4),rgba(255, 255, 255, 0) 100%); */
+    background-color: rgba(255, 223, 0, 0.05);
 }
+
+
+
+
 .card-title{
     font-size: 24px;
     font-weight: 800;
@@ -234,7 +242,7 @@ frame{
     background-size: cover;
     border-radius: 16px;
     margin-top: 49px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email); */
     text-align: center;
     padding: 64px 48px 64px 48px;
 
@@ -247,9 +255,11 @@ frame{
     font-size: 32px;
     font-weight: 700;
     color: #fff;
-    padding-top: 64px;
+
+    margin : 20px;
 }
 .support-description{
+    margin : 40px;
     font-size: 12px;
     font-weight: 400;
     line-height: 26px;
