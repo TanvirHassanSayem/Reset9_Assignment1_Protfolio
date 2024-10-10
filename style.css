@@ -8,9 +8,13 @@
     font-family: "Azeret Mono", monospace;
 }
 
+
+
+
+
 .banner {
-    max-width: 1440px;
-    min-height: 652px;
+    max-width: 1600px; 
+    min-height: 750px;
     margin-top: 131px;
     background-image: url("./assets/Hero-bg.png");
     background-size: cover;
@@ -19,12 +23,22 @@
     position: relative;
     padding: auto;
     text-align: center;
+
 }
 
+
+
+
 .logo {
-    padding-top: 26px;
+    /* padding: 30px; */
     text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
 }
+
+
+
 
 .title,.description{
     max-width: 998px;
@@ -35,9 +49,10 @@
     font-weight: 800;
     line-height: 68px;
     text-align: center;
-    padding-top: 32px;
+    padding-top: 12px;
     padding-left: 221px;
     padding-right: 221px;
+   
 }
 
 .description {
