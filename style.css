@@ -94,7 +94,6 @@
 .item1,.item2,.item3{
     display: flex;
     padding: 48px;
-    /* border-radius: 16px; */
 }
 .item1, .item3{
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
@@ -198,18 +197,15 @@ frame{
 .card1{
     border-radius: 16x;
     margin-left: 0;
-    /* background: linear-gradient(90.00deg, rgb(236, 113, 113),rgba(255, 255, 255, 0) 100%); */
     background-color: rgba(255, 76, 30, 0.05);
 }
 .card2{
     margin-left: 20px;
     margin-right: 20px;
-    /* background: linear-gradient(90.00deg, hsl(240, 51%, 49%),rgba(255, 255, 255, 0) 100%); */
     background-color: rgba(0, 76, 232, 0.05);
 }
 .card3{
     margin-right: 0;
-    /* background: linear-gradient(90.00deg, rgb(221, 213, 4),rgba(255, 255, 255, 0) 100%); */
     background-color: rgba(255, 223, 0, 0.05);
 }
 
@@ -245,7 +241,6 @@ frame{
     background-size: cover;
     border-radius: 16px;
     margin-top: 49px;
-    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email); */
     text-align: center;
     padding: 64px 48px 64px 48px;
 
